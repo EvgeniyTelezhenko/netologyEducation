@@ -6,11 +6,11 @@ import UIKit
  */
 
 let name = "Evgeniy" // Имя
-let surname = "Telezhenko" // Фамилия
-let thirdName = "Gennadievich" // Отчество
-var age = 24 // Возраст
-var city = "Omsk" // Город, где находится сотрудник
-age = 25 // Обновленный возраст сотрдника
+let surname = "Telezhenko" //Фамилия
+let thirdName = "Gennadievich" // Фамилия
+var age = 24 //Возраст
+var city = "Omsk" // Город проживания сотрудника
+age = 25 // Обновление возраста сотрудника
 
 //MARK:- Задание 2
 /*
@@ -24,9 +24,8 @@ age = 25 // Обновленный возраст сотрдника
 
 let firstSalary = 110000
 let secondSalary = 55000
-let thirdSalary  = 70000
+let thirdSalary = 70000
 
 let firstComparison = firstSalary > thirdSalary
 let secondComparison = secondSalary < firstSalary
 let thirdComparison = thirdSalary < firstSalary && secondSalary > firstSalary
-print("\(firstComparison) \n\(secondComparison) \n\(thirdComparison)")
